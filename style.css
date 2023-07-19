@@ -1,0 +1,199 @@
+body{
+    margin: auto;
+    color: #fff;
+    text-align: center;
+  }
+  h1{
+    margin: 15px auto;
+  }
+  .all{
+    margin: auto;
+    border: solid 2px #fdfdfd;
+    width: 98%;
+    max-width: 680px;
+    height: auto;
+    padding-bottom: 10px;
+  }
+
+  .alternador{
+    margin: auto;
+    text-align: center;
+    width: 99%;
+    height: auto;
+  }
+
+  .sequences{
+    width: calc(100% - 75px);
+    float: right;
+    height: 200px;
+    color: black;
+    background-color: #dcdcdc;
+    margin: 2px auto;
+    text-align: left;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 5px;
+    border: solid 2px gray;
+  }
+  .valores{
+    margin: 5px 0px;
+    display: inline-table;
+    position: relative;
+    width: 99%;
+  }
+  .add{
+    color: gray;
+  }
+
+  .setup{
+    float: right;
+    text-align: center;
+    height: auto;
+    border: solid 2px #fff;
+    width: calc(100% - 75px);
+    padding: 5px 0px;
+    margin: 5px;
+  }
+
+  .valor{
+    width: 47%;
+    height: 25px;
+  }
+
+  .iniciar{
+    width: 47%;
+    height: 30px;
+  }
+  .iniciar button{
+    width: 100%;
+    height: 100%;
+  }
+
+  .parameter{
+    border: solid;
+    border-color: gray;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+  }
+  .oneTwo{
+    font-size: 18px;
+    padding: 0px;
+  }
+
+
+
+
+
+
+.wavy-text{
+    width: 99%;
+    font-size: 17px;
+    height: auto;
+    min-height: 20px;
+    border: solid 1px black;
+    padding: 4px 1px;
+    margin: 5px 0px;
+    overflow-y: hidden;
+}
+
+
+@keyframes wave1 {
+    0% {
+        text-shadow: 4px 3px 6px black;
+        transform: translateY(-1px);
+        border: solid 2px gray;
+    }
+    10% {
+        text-shadow: 1px 1px 1px gray;
+        border: solid 2px #dcdcdc;
+    }
+    20% {
+        
+    }
+    30% {
+        
+    }
+    40% {
+        
+    }
+    50% {
+        
+    }
+    60% {
+        
+    }
+    70% {
+        
+    }
+    80% {
+        
+    }
+    90% {
+        
+    }
+    100% {
+        
+    }
+}
+
+
+@keyframes wave2 {
+    0% {
+        text-shadow: 4px 3px 6px #fff;
+        transform: translateY(-1px);
+        background-color: gray;
+    }
+    10% {
+        text-shadow: 1px 1px 1px gray;
+        background-color: #dcdcdc;
+    }
+    20% {
+        
+    }
+    30% {
+        
+    }
+    40% {
+        
+    }
+    50% {
+        
+    }
+    60% {
+        
+    }
+    70% {
+        
+    }
+    80% {
+        
+    }
+    90% {
+        
+    }
+    100% {
+        
+    }
+}
+
+.wavy-text .rooms {
+    color: black;
+    padding: 0px 2px;
+    border: solid 2px #dcdcdc;
+    outline-width: 7px;
+    cursor: move;
+  }
+
+  .wavy-text .ksRooms {
+    color: black;
+    padding: 0px 2px;
+    border: solid 1px #dcdcdc;
+    cursor: move;
+  }
+
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+      display: none;
+} 
